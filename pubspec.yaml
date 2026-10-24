@@ -1,0 +1,28 @@
+name: gym_app
+description: "Indian Fitness Gym - Gym Management App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  excel: ^4.0.6
+  path_provider: ^2.1.5
+  share_plus: ^10.1.4
+  file_picker: ^8.1.7
+  provider: ^6.1.2
+  google_fonts: ^6.2.1
+  intl: ^0.20.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
